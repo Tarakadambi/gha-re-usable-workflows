@@ -3,7 +3,7 @@ on:
   workflow_call:
 jobs:
     greeting:       
-        runs-on: ubuntu-latest
-        steps:
-            - name: Greeting Step
-              run: echo "WELCOME TO REUSABLE WORKFLOW"
+      runs-on: ubuntu-latest
+      steps:
+         - name: Greeting Step
+           run: echo "WELCOME TO REUSABLE WORKFLOW"
