@@ -1,5 +1,5 @@
-name:Reusable Workflow
- on:
+name: Reusable Workflow
+on:
     workflow_call:
 jobs:
     greeting:       
